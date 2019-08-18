@@ -10,3 +10,4 @@ brew "wget"
 
 cask "atom"
 cask "iterm2"
+cask "firefox"
