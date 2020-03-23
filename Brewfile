@@ -4,6 +4,7 @@ tap "homebrew/core"
 
 brew "bash-completion"
 brew "git"
+brew "gti"
 brew "wget"
 
 cask "atom"
