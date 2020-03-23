@@ -1,0 +1,32 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/bundle": {
+        "revision": "e6396404ae589aaf47adbd34d1fcb81c9baa928c"
+      },
+      "homebrew/cask": {
+        "revision": "f34701a8e427755dd934e3fafe60bfd0a076a043"
+      }
+    },
+    "cask": {
+      "android-studio": {
+        "version": "3.6.1.0,192.6241897",
+        "options": {
+          "full_name": "android-studio"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "mojave": {
+        "HOMEBREW_VERSION": "2.2.10",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "e81f13c3917e21fdbc2e905e90c0ef5fd643c80b",
+        "CLT": "10.3.0.0.1.1562985497",
+        "Xcode": "10.2.1",
+        "macOS": "10.14.6"
+      }
+    }
+  }
+}
