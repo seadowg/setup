@@ -14,4 +14,10 @@ if [ -d ~/workspace/collect ]; then
   popd
 
   brew bundle
+
+  if [ ! -d ~/Checkman ]; then
+    \curl https://raw.githubusercontent.com/cppforlife/checkman/master/bin/install | bash -s
+  fi
+
+  cp Open\ Data\ Kit ~/Checkman/Open\ Data\ Kit
 fi
