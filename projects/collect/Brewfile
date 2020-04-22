@@ -2,3 +2,4 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 
 cask "android-studio"
+cask "libreoffice" # for creating/editing XLSForms

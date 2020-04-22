@@ -19,5 +19,5 @@ if [ -d ~/workspace/collect ]; then
     \curl https://raw.githubusercontent.com/cppforlife/checkman/master/bin/install | bash -s
   fi
 
-  cp Open\ Data\ Kit ~/Checkman/Open\ Data\ Kit
+  # cp Open\ Data\ Kit ~/Checkman/Open\ Data\ Kit
 fi
