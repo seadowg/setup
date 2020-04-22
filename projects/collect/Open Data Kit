@@ -1,0 +1,1 @@
+collect: circlecijson.check opendatakit collect master <CIRCLE-CI-API-KEY>
