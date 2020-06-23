@@ -2,12 +2,23 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
-brew "bash-completion"
+# General
+cask "firefox"
+cask "dropbox"
+cask "1password"
+cask "notion"
 
+# Dev
+brew "bash-completion"
 brew "git"
 brew "gti"
-brew "wget"
-
 cask "atom"
 cask "iterm2"
-cask "firefox"
+cask "docker"
+
+# Music
+cask "roon"
+
+# Production
+cask "ableton-live-standard"
+cask "splice"

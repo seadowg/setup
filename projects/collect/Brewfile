@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 
+brew "circleci"
+
 cask "android-studio"
 cask "libreoffice" # for creating/editing XLSForms
