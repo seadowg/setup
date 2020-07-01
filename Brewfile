@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "kryptco/tap"
 
 # General
 cask "firefox"
@@ -15,6 +16,7 @@ brew "gti"
 cask "atom"
 cask "iterm2"
 cask "docker"
+brew "kryptco/tap/kr"
 
 # Music
 cask "roon"

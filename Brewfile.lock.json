@@ -9,6 +9,9 @@
       },
       "homebrew/core": {
         "revision": "5d94893d0c5b1ede72c34155d29a81c29dbfca7b"
+      },
+      "kryptco/tap": {
+        "revision": "e8319a25d1fa9e8f008cf34f9f4cd405ab736638"
       }
     },
     "brew": {
@@ -129,7 +132,8 @@
             }
           }
         }
-      }
+      },
+      "kryptco/tap/kr": null
     },
     "cask": {
       "atom": {
