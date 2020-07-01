@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "e6396404ae589aaf47adbd34d1fcb81c9baa928c"
+        "revision": "5bddeeba4ad47d1f84fb283a8b1011806862bfe7"
       },
       "homebrew/cask": {
-        "revision": "f34701a8e427755dd934e3fafe60bfd0a076a043"
+        "revision": "d4cb58ab2af0a42dbbe6c6efcabb63d92c14cf99"
       },
       "homebrew/core": {
-        "revision": "e81f13c3917e21fdbc2e905e90c0ef5fd643c80b"
+        "revision": "5d94893d0c5b1ede72c34155d29a81c29dbfca7b"
       }
     },
     "brew": {
@@ -46,22 +46,22 @@
         }
       },
       "git": {
-        "version": "2.26.0",
+        "version": "2.27.0",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.26.0.catalina.bottle.tar.gz",
-              "sha256": "174f1f2513dfc0be1997c4385cc4579c37479aa1038e5f73088fb0a1edfbe5e9"
+              "url": "https://homebrew.bintray.com/bottles/git-2.27.0.catalina.bottle.1.tar.gz",
+              "sha256": "731a77dd23d63ca8a0a5ba5c990218e37f1c8d9313fa1f9e58771cf5abd97bef"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.26.0.mojave.bottle.tar.gz",
-              "sha256": "872641963bc853b4e421a0d8fa3a535812fc1a81d07fe00cbd8b1f35bc66558c"
+              "url": "https://homebrew.bintray.com/bottles/git-2.27.0.mojave.bottle.1.tar.gz",
+              "sha256": "a752212149e96e67fd8c42e1d68d7612de94bc67f06ffdc13ed7236aa33debf4"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.26.0.high_sierra.bottle.tar.gz",
-              "sha256": "d811df72427c53248ef4ba9e954ecd998c9b72cae87c620af37fa0813e0a0a5f"
+              "url": "https://homebrew.bintray.com/bottles/git-2.27.0.high_sierra.bottle.1.tar.gz",
+              "sha256": "c9b1c7d3686fac0f7006b13b1afd46e38f2d6c73dd72049d9e8fc49b1bb34599"
             }
           }
         }
@@ -107,25 +107,89 @@
             }
           }
         }
+      },
+      "python3": null,
+      "python": {
+        "version": "3.7.7",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.catalina.bottle.tar.gz",
+              "sha256": "acd595852aecc2bfa46c57d86db716e64d57bb2753c45ff7f745b46c7655dd65"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.mojave.bottle.tar.gz",
+              "sha256": "cc8177d823b39d099e1f1a6f2e0fccb16e531508b59580f1fd44f659b54eeb84"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.high_sierra.bottle.tar.gz",
+              "sha256": "079ace2d46b98d9931f14fbb6e02d883fedf0333faabcbaf552b12553325f4b6"
+            }
+          }
+        }
       }
     },
     "cask": {
       "atom": {
-        "version": "1.40.0",
+        "version": "1.48.0",
         "options": {
           "full_name": "atom"
         }
       },
       "iterm2": {
-        "version": "3.3.1",
+        "version": "3.3.11",
         "options": {
           "full_name": "iterm2"
         }
       },
       "firefox": {
-        "version": "68.0.2",
+        "version": "78.0",
         "options": {
           "full_name": "firefox"
+        }
+      },
+      "dropbox": {
+        "version": "latest",
+        "options": {
+          "full_name": "dropbox"
+        }
+      },
+      "1password": {
+        "version": "7.5",
+        "options": {
+          "full_name": "1password"
+        }
+      },
+      "notion": {
+        "version": "2.0.7",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "docker": {
+        "version": "2.3.0.3,45519",
+        "options": {
+          "full_name": "docker"
+        }
+      },
+      "roon": {
+        "version": "latest",
+        "options": {
+          "full_name": "roon"
+        }
+      },
+      "ableton-live-standard": {
+        "version": "10.1.15",
+        "options": {
+          "full_name": "ableton-live-standard"
+        }
+      },
+      "splice": {
+        "version": "3.6.2",
+        "options": {
+          "full_name": "splice"
         }
       }
     }
@@ -139,6 +203,14 @@
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.2.1",
         "macOS": "10.14.6"
+      },
+      "catalina": {
+        "HOMEBREW_VERSION": "2.4.2-170-g73a220a",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "5d94893d0c5b1ede72c34155d29a81c29dbfca7b",
+        "CLT": "11.5.0.0.1.1588476445",
+        "Xcode": "11.5",
+        "macOS": "10.15.5"
       }
     }
   }

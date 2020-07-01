@@ -18,7 +18,7 @@ cask "docker"
 
 # Music
 cask "roon"
-brew "python3" # Need for beets
+brew "python" # Need for beets
 
 # Production
 cask "ableton-live-standard"
