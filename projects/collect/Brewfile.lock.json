@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "b2faa30e18a4143d9621d02d0a0f55f17abc08e2"
+        "revision": "9a3850f055cbb0eceec5b57d68334388594793ce"
       },
       "homebrew/cask": {
-        "revision": "49c004352ba7fddaa82d2f03afe088d83368242d"
+        "revision": "1b46a365300cdc9499dd8c275fd6268f5afe4070"
       }
     },
     "cask": {
@@ -25,6 +25,12 @@
         "version": "4.7.0",
         "options": {
           "full_name": "slack"
+        }
+      },
+      "google-cloud-sdk": {
+        "version": "latest",
+        "options": {
+          "full_name": "google-cloud-sdk"
         }
       }
     },
@@ -65,7 +71,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ed707658e211d543587fed30a209cf826cee887c",
+        "Homebrew/homebrew-core": "f329804641431158f78809d5e85ba50b4951b98c",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.5"

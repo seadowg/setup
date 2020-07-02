@@ -26,3 +26,5 @@ else
   git clone git@github.com:getodk/collect.git ~/workspace/collect
   setup
 fi
+
+echo "To use the Android Studio JDK add \"export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home/\" to the ~/.bash_profile"

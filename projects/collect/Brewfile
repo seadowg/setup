@@ -6,3 +6,4 @@ brew "circleci"
 cask "slack"
 cask "android-studio"
 cask "libreoffice" # for creating/editing XLSForms
+cask "google-cloud-sdk"
