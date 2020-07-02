@@ -2,17 +2,52 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "e6396404ae589aaf47adbd34d1fcb81c9baa928c"
+        "revision": "b2faa30e18a4143d9621d02d0a0f55f17abc08e2"
       },
       "homebrew/cask": {
-        "revision": "36090bb68b4b5e23a88e09135864cf23afebe2af"
+        "revision": "49c004352ba7fddaa82d2f03afe088d83368242d"
       }
     },
     "cask": {
       "android-studio": {
-        "version": "3.6.1.0,192.6241897",
+        "version": "4.0.0.16,193.6514223",
         "options": {
           "full_name": "android-studio"
+        }
+      },
+      "libreoffice": {
+        "version": "6.4.4",
+        "options": {
+          "full_name": "libreoffice"
+        }
+      },
+      "slack": {
+        "version": "4.7.0",
+        "options": {
+          "full_name": "slack"
+        }
+      }
+    },
+    "brew": {
+      "circleci": {
+        "version": "0.1.8574",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8574.catalina.bottle.tar.gz",
+              "sha256": "1e91ba4669d88aaaf56cfd9efd279ff16321522c004e8c66fac38eaec79ef51e"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8574.mojave.bottle.tar.gz",
+              "sha256": "cb73dd99de7f008b70e72aa7ffde2766dfd317c3505748f044c8519bf237b2c1"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8574.high_sierra.bottle.tar.gz",
+              "sha256": "4921166b95c0d9fbd55d676ac6d3bc30916832ee4b83091a706c979ae9b1ea54"
+            }
+          }
         }
       }
     }
@@ -26,6 +61,14 @@
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.2.1",
         "macOS": "10.14.6"
+      },
+      "catalina": {
+        "HOMEBREW_VERSION": "2.4.3",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "ed707658e211d543587fed30a209cf826cee887c",
+        "CLT": "11.5.0.0.1.1588476445",
+        "Xcode": "11.5",
+        "macOS": "10.15.5"
       }
     }
   }

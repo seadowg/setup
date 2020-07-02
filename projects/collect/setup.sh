@@ -1,8 +1,6 @@
 #! /bin/bash
 
-set -e
-
-if [ -d ~/workspace/collect ]; then
+setup() {
   cp disable-animations.sh ~/workspace/collect
   cp enable-animations.sh ~/workspace/collect
   cp test-lab.sh ~/workspace/collect
@@ -20,4 +18,11 @@ if [ -d ~/workspace/collect ]; then
   fi
 
   # cp Open\ Data\ Kit ~/Checkman/Open\ Data\ Kit
+}
+
+if [ -d ~/workspace/collect ]; then
+  setup
+else
+  git clone git@github.com:getodk/collect.git ~/workspace/collect
+  setup
 fi

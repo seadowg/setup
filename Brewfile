@@ -7,7 +7,10 @@ tap "kryptco/tap"
 cask "firefox"
 cask "dropbox"
 cask "1password"
+
+# Work
 cask "notion"
+cask "toggl"
 
 # Dev
 brew "bash-completion"

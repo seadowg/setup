@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "5bddeeba4ad47d1f84fb283a8b1011806862bfe7"
+        "revision": "b2faa30e18a4143d9621d02d0a0f55f17abc08e2"
       },
       "homebrew/cask": {
-        "revision": "d4cb58ab2af0a42dbbe6c6efcabb63d92c14cf99"
+        "revision": "49c004352ba7fddaa82d2f03afe088d83368242d"
       },
       "homebrew/core": {
-        "revision": "5d94893d0c5b1ede72c34155d29a81c29dbfca7b"
+        "revision": "ed707658e211d543587fed30a209cf826cee887c"
       },
       "kryptco/tap": {
         "revision": "e8319a25d1fa9e8f008cf34f9f4cd405ab736638"
@@ -195,6 +195,12 @@
         "options": {
           "full_name": "splice"
         }
+      },
+      "toggl": {
+        "version": "7.5.192",
+        "options": {
+          "full_name": "toggl"
+        }
       }
     }
   },
@@ -209,9 +215,9 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.2-170-g73a220a",
+        "HOMEBREW_VERSION": "2.4.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5d94893d0c5b1ede72c34155d29a81c29dbfca7b",
+        "Homebrew/homebrew-core": "ed707658e211d543587fed30a209cf826cee887c",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.5"
