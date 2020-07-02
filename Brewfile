@@ -20,6 +20,7 @@ cask "atom"
 cask "iterm2"
 cask "docker"
 brew "kryptco/tap/kr"
+cask "gpg-suite"
 
 # Music
 cask "roon"
