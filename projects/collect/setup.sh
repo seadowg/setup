@@ -17,7 +17,8 @@ setup() {
     \curl https://raw.githubusercontent.com/cppforlife/checkman/master/bin/install | bash -s
   fi
 
-  # cp Open\ Data\ Kit ~/Checkman/Open\ Data\ Kit
+  rm ~/Checkman/example
+  cp Open\ Data\ Kit ~/Checkman/Open\ Data\ Kit
 }
 
 if [ -d ~/workspace/collect ]; then
@@ -27,4 +28,7 @@ else
   setup
 fi
 
-echo "To use the Android Studio JDK add \"export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home/\" to the ~/.bash_profile"
+echo ""
+echo "Caveats:"
+echo "* To use the Android Studio JDK add \"export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home/\" to the ~/.bash_profile"
+echo "* Checkman will need a Circle CI API key copied in at ~/Checkman/Open\ Data\ Kit"

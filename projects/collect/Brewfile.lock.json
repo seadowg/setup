@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "9a3850f055cbb0eceec5b57d68334388594793ce"
+        "revision": "d46dc06c981ac96c8694cc41d94e463d9fe17bcd"
       },
       "homebrew/cask": {
-        "revision": "1b46a365300cdc9499dd8c275fd6268f5afe4070"
+        "revision": "e46fcbbaae8b3d92e00771e077935ad475a36129"
       }
     },
     "cask": {
@@ -16,7 +16,7 @@
         }
       },
       "libreoffice": {
-        "version": "6.4.4",
+        "version": "6.4.5",
         "options": {
           "full_name": "libreoffice"
         }
@@ -36,22 +36,22 @@
     },
     "brew": {
       "circleci": {
-        "version": "0.1.8574",
+        "version": "0.1.8599",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8574.catalina.bottle.tar.gz",
-              "sha256": "1e91ba4669d88aaaf56cfd9efd279ff16321522c004e8c66fac38eaec79ef51e"
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8599.catalina.bottle.tar.gz",
+              "sha256": "3a26df6b9686727e98418ffc3eb28c83689e202d9360d56eaebe358586be074e"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8574.mojave.bottle.tar.gz",
-              "sha256": "cb73dd99de7f008b70e72aa7ffde2766dfd317c3505748f044c8519bf237b2c1"
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8599.mojave.bottle.tar.gz",
+              "sha256": "df2b01078f81928ebff0a17b9580a0105ab1ac5606513db5661fd56539c584af"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8574.high_sierra.bottle.tar.gz",
-              "sha256": "4921166b95c0d9fbd55d676ac6d3bc30916832ee4b83091a706c979ae9b1ea54"
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8599.high_sierra.bottle.tar.gz",
+              "sha256": "8aba332a6953247117def80ddd864c7c04d72876cf8389ac8f5436604beb44a4"
             }
           }
         }
@@ -69,9 +69,9 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.3",
+        "HOMEBREW_VERSION": "2.4.4",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f329804641431158f78809d5e85ba50b4951b98c",
+        "Homebrew/homebrew-core": "91357eebe46afa1dec51defe077d42325df350c1",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.5"
