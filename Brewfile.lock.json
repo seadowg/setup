@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "9a3850f055cbb0eceec5b57d68334388594793ce"
+        "revision": "c3162a3b89a066cf37ad165f5a155da18e70d9f8"
       },
       "homebrew/cask": {
-        "revision": "1b46a365300cdc9499dd8c275fd6268f5afe4070"
+        "revision": "6198532dab8f436a456b6941d75e56faaf9048f8"
       },
       "homebrew/core": {
-        "revision": "f329804641431158f78809d5e85ba50b4951b98c"
+        "revision": "81a6ff98897676cc530fcd1c4e586dffea24cbd0"
       },
       "kryptco/tap": {
-        "revision": "e8319a25d1fa9e8f008cf34f9f4cd405ab736638"
+        "revision": "09d6448eedf6d932b78baee7972a29b669f3d6a5"
       }
     },
     "brew": {
@@ -112,28 +112,29 @@
         }
       },
       "python3": null,
-      "python": {
-        "version": "3.7.7",
+      "python": null,
+      "kryptco/tap/kr": null,
+      "python@3.7": {
+        "version": "3.7.8_1",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.catalina.bottle.tar.gz",
-              "sha256": "acd595852aecc2bfa46c57d86db716e64d57bb2753c45ff7f745b46c7655dd65"
+              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.8_1.catalina.bottle.tar.gz",
+              "sha256": "820f16256e3e36b6ef99538edb4b825b223ca0a8a906dc6512a1e268b39c7b0a"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.mojave.bottle.tar.gz",
-              "sha256": "cc8177d823b39d099e1f1a6f2e0fccb16e531508b59580f1fd44f659b54eeb84"
+              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.8_1.mojave.bottle.tar.gz",
+              "sha256": "e87ae74ceefe52ba923a3a604354bd6662ffa1a5e5f89461f1194c601e8dde4d"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/python-3.7.7.high_sierra.bottle.tar.gz",
-              "sha256": "079ace2d46b98d9931f14fbb6e02d883fedf0333faabcbaf552b12553325f4b6"
+              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.8_1.high_sierra.bottle.tar.gz",
+              "sha256": "e765c73c931d40ed8145507415ad6e511c18a615827e087d3e9c8b7a47700324"
             }
           }
         }
-      },
-      "kryptco/tap/kr": null
+      }
     },
     "cask": {
       "atom": {
@@ -191,13 +192,13 @@
         }
       },
       "splice": {
-        "version": "3.6.2",
+        "version": "3.6.3",
         "options": {
           "full_name": "splice"
         }
       },
       "toggl": {
-        "version": "7.5.192",
+        "version": "7.5.213",
         "options": {
           "full_name": "toggl"
         }
@@ -221,12 +222,12 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.3",
+        "HOMEBREW_VERSION": "2.4.8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f329804641431158f78809d5e85ba50b4951b98c",
-        "CLT": "11.5.0.0.1.1588476445",
+        "Homebrew/homebrew-core": "81a6ff98897676cc530fcd1c4e586dffea24cbd0",
+        "CLT": "1103.0.32.62",
         "Xcode": "11.5",
-        "macOS": "10.15.5"
+        "macOS": "10.15.6"
       }
     }
   }

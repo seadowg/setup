@@ -24,7 +24,7 @@ cask "gpg-suite"
 
 # Music
 cask "roon"
-brew "python" # Need for beets
+brew "python@3.7" # Need for beets
 
 # Production
 cask "ableton-live-standard"
