@@ -8,3 +8,4 @@ cask "slack"
 cask "android-studio"
 cask "libreoffice" # for creating/editing XLSForms
 cask "google-cloud-sdk"
+cask "imageoptim" # for optimizing screenshots
