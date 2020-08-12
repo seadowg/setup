@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "d46dc06c981ac96c8694cc41d94e463d9fe17bcd"
+        "revision": "3e9ebe1c94b361c05178cb69af3de0802272125f"
       },
       "homebrew/cask": {
-        "revision": "e46fcbbaae8b3d92e00771e077935ad475a36129"
+        "revision": "175f2254cd15c5dc4efd5c967186c18e40c03a2c"
       }
     },
     "cask": {
@@ -16,7 +16,7 @@
         }
       },
       "libreoffice": {
-        "version": "6.4.5",
+        "version": "7.0.0",
         "options": {
           "full_name": "libreoffice"
         }
@@ -36,22 +36,43 @@
     },
     "brew": {
       "circleci": {
-        "version": "0.1.8599",
+        "version": "0.1.9066",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8599.catalina.bottle.tar.gz",
-              "sha256": "3a26df6b9686727e98418ffc3eb28c83689e202d9360d56eaebe358586be074e"
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.9066.catalina.bottle.tar.gz",
+              "sha256": "4e3c3a343f3b58d9e7ee7cb48211233bce811ada3ba8469dda3d3048badedbea"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8599.mojave.bottle.tar.gz",
-              "sha256": "df2b01078f81928ebff0a17b9580a0105ab1ac5606513db5661fd56539c584af"
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.9066.mojave.bottle.tar.gz",
+              "sha256": "62cfbaca22cf16508fd2e7aeb499e00de342f802ee3fa3c872045212308b6011"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.8599.high_sierra.bottle.tar.gz",
-              "sha256": "8aba332a6953247117def80ddd864c7c04d72876cf8389ac8f5436604beb44a4"
+              "url": "https://homebrew.bintray.com/bottles/circleci-0.1.9066.high_sierra.bottle.tar.gz",
+              "sha256": "fd02142045eea1b95ed117445919d5c33a01b73e06f757b7dbfa280c5c8ecb3e"
+            }
+          }
+        }
+      },
+      "git-lfs": {
+        "version": "2.11.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.11.0.catalina.bottle.tar.gz",
+              "sha256": "351d2d6cb168249b9b7b0d55628574126b9787eab1441861dfd324b952057651"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.11.0.mojave.bottle.tar.gz",
+              "sha256": "adbf311076f64920e0f621640d251e6ef44ad8fc9022f287118be5644c4095d4"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.11.0.high_sierra.bottle.tar.gz",
+              "sha256": "0c231fb0f6edab306f9b58f08fb8c075860f688d6efe4190b6377c661e36d18c"
             }
           }
         }
@@ -69,12 +90,12 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.4",
+        "HOMEBREW_VERSION": "2.4.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "91357eebe46afa1dec51defe077d42325df350c1",
-        "CLT": "11.5.0.0.1.1588476445",
+        "Homebrew/homebrew-core": "816e3ecb0bb694161615b468062466845267e6a9",
+        "CLT": "1103.0.32.62",
         "Xcode": "11.5",
-        "macOS": "10.15.5"
+        "macOS": "10.15.6"
       }
     }
   }
