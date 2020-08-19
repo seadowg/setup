@@ -3,6 +3,7 @@ tap "homebrew/cask"
 
 brew "circleci"
 brew "git-lfs"
+brew "direnv"
 
 cask "slack"
 cask "android-studio"

@@ -4,7 +4,8 @@ setup() {
   cp disable-animations.sh ~/workspace/collect
   cp enable-animations.sh ~/workspace/collect
   cp test-lab.sh ~/workspace/collect
-  cp .local_gitignore ~/workspace/collect/.local_gitignore
+  cp local_gitignore ~/workspace/collect/.local_gitignore
+  cp envrc ~/workspace/collect/.envrc
   touch ~/workspace/collect/pr-notes.md
 
   pushd ~/workspace/collect
@@ -29,5 +30,5 @@ fi
 
 echo ""
 echo "Caveats:"
-echo "* To use the Android Studio JDK add \"export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home/\" to the ~/.bash_profile"
 echo "* Checkman will need a Circle CI API key copied (from https://app.circleci.com/settings/user/tokens) in at ~/Checkman/Open\ Data\ Kit"
+echo "* Add eval \"\$(direnv hook bash)\" to the ~/.bash_profile to finish direnv setup"
