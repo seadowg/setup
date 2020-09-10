@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "c3162a3b89a066cf37ad165f5a155da18e70d9f8"
+        "revision": "811e18749d91a86ffda64f6b254f8b8e6b5754f9"
       },
       "homebrew/cask": {
-        "revision": "6198532dab8f436a456b6941d75e56faaf9048f8"
+        "revision": "09de4f28fe5205eae7e4e5dbbc0de668afca1009"
       },
       "homebrew/core": {
-        "revision": "81a6ff98897676cc530fcd1c4e586dffea24cbd0"
+        "revision": "b599f82489f1177cfb69f21f9878eeb3cb562cb5"
       },
       "kryptco/tap": {
         "revision": "09d6448eedf6d932b78baee7972a29b669f3d6a5"
@@ -49,22 +49,22 @@
         }
       },
       "git": {
-        "version": "2.27.0",
+        "version": "2.28.0",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.27.0.catalina.bottle.1.tar.gz",
-              "sha256": "731a77dd23d63ca8a0a5ba5c990218e37f1c8d9313fa1f9e58771cf5abd97bef"
+              "url": "https://homebrew.bintray.com/bottles/git-2.28.0.catalina.bottle.tar.gz",
+              "sha256": "6c4d10f29f78dcbefa12fab3e47e7755d5d2ca2e9bbc5aeee4838ad223296d0a"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.27.0.mojave.bottle.1.tar.gz",
-              "sha256": "a752212149e96e67fd8c42e1d68d7612de94bc67f06ffdc13ed7236aa33debf4"
+              "url": "https://homebrew.bintray.com/bottles/git-2.28.0.mojave.bottle.tar.gz",
+              "sha256": "10f23bc63568fdeb598df2dd30fbb0ead31f2eef3c0990a8ac53f3e2005de82f"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.27.0.high_sierra.bottle.1.tar.gz",
-              "sha256": "c9b1c7d3686fac0f7006b13b1afd46e38f2d6c73dd72049d9e8fc49b1bb34599"
+              "url": "https://homebrew.bintray.com/bottles/git-2.28.0.high_sierra.bottle.tar.gz",
+              "sha256": "5095b064dfafb8cf4cabd017844f181d8eabaf45fb6965d2d30ed6de00c0e884"
             }
           }
         }
@@ -115,22 +115,22 @@
       "python": null,
       "kryptco/tap/kr": null,
       "python@3.7": {
-        "version": "3.7.8_1",
+        "version": "3.7.9",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.8_1.catalina.bottle.tar.gz",
-              "sha256": "820f16256e3e36b6ef99538edb4b825b223ca0a8a906dc6512a1e268b39c7b0a"
+              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.9.catalina.bottle.tar.gz",
+              "sha256": "0f2cece6843e6b0f0e8c584cb3b8ad2b987e3919e954ec7db2f8e4154ef79255"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.8_1.mojave.bottle.tar.gz",
-              "sha256": "e87ae74ceefe52ba923a3a604354bd6662ffa1a5e5f89461f1194c601e8dde4d"
+              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.9.mojave.bottle.tar.gz",
+              "sha256": "3f1ee86cceeebd98cd01a14670d24a1642d5ac1bf6323566daacc25ffb9e1fa2"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.8_1.high_sierra.bottle.tar.gz",
-              "sha256": "e765c73c931d40ed8145507415ad6e511c18a615827e087d3e9c8b7a47700324"
+              "url": "https://homebrew.bintray.com/bottles/python%403.7-3.7.9.high_sierra.bottle.tar.gz",
+              "sha256": "897e237390c3da53ce82f3a9488e1a53b0766fdfbaa4251f8db5a4660f0fb7fc"
             }
           }
         }
@@ -192,7 +192,7 @@
         }
       },
       "splice": {
-        "version": "3.6.3",
+        "version": "3.6.4",
         "options": {
           "full_name": "splice"
         }
@@ -208,6 +208,18 @@
         "options": {
           "full_name": "gpg-suite"
         }
+      },
+      "musicbrainz-picard": {
+        "version": "2.4.4",
+        "options": {
+          "full_name": "musicbrainz-picard"
+        }
+      },
+      "balance-lock": {
+        "version": "1.0.6",
+        "options": {
+          "full_name": "balance-lock"
+        }
       }
     }
   },
@@ -222,9 +234,9 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.8",
+        "HOMEBREW_VERSION": "2.5.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "81a6ff98897676cc530fcd1c4e586dffea24cbd0",
+        "Homebrew/homebrew-core": "b599f82489f1177cfb69f21f9878eeb3cb562cb5",
         "CLT": "1103.0.32.62",
         "Xcode": "11.5",
         "macOS": "10.15.6"

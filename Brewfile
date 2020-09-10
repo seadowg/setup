@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "kryptco/tap"
 
 # General
 cask "firefox"
@@ -19,12 +18,13 @@ brew "gti"
 cask "atom"
 cask "iterm2"
 cask "docker"
-brew "kryptco/tap/kr"
 cask "gpg-suite"
 
 # Music
 cask "roon"
 brew "python@3.7" # Need for beets
+cask "musicbrainz-picard"
+cask "balance-lock"
 
 # Production
 cask "ableton-live-standard"
