@@ -1,4 +1,5 @@
 directory: ~/Dropbox/Media/Music
+library: ~/Dropbox/Media/Music/beet-library.db
 plugins: convert
 convert:
   copy_album_art: yes
