@@ -7,6 +7,7 @@ brew bundle
 rm '/usr/local/bin/pip3'
 brew link python@3.7 --force
 python3 -m pip install --user beets
+cp beets-config.yaml ~/.config/beets/config.yaml
 
 # Setup bash
 chsh -s /bin/bash

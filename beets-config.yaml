@@ -1,0 +1,12 @@
+directory: ~/Dropbox/Media/Music
+plugins: convert
+convert:
+  copy_album_art: yes
+  never_convert_lossy_files: yes
+  formats:
+    cd:
+      command: ffmpeg -i $source -y -vn -sample_fmt s16 -ar 44100 $dest
+      extension: flac
+    mobile:
+      command: ffmpeg -i $source -y -vn -ab 320k -ar 44100 $dest
+      extension: mp3
