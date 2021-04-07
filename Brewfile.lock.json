@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "b8b5bdb46cc45b7be5f305654a145473469d19d0"
+        "revision": "0df097ca87d3bcf762d0f8cbe30eed8c37c35786"
       },
       "homebrew/cask": {
-        "revision": "5c529591359b2e0b9afac84a4ab8637db570ee72"
+        "revision": "5f01c8ae8e1336186c0e6fc9b14b943395d664fd"
       },
       "homebrew/core": {
-        "revision": "c59c835ae3098b49120a1695c13fd459ec8c65b4"
+        "revision": "f4b054bcfb86de6c468dc44fede5f1f475924f9d"
       },
       "kryptco/tap": {
         "revision": "09d6448eedf6d932b78baee7972a29b669f3d6a5"
@@ -59,7 +59,7 @@
         }
       },
       "git": {
-        "version": "2.30.1",
+        "version": "2.31.1",
         "bottle": {
           "rebuild": 0,
           "cellar": "/usr/local/Cellar",
@@ -67,20 +67,20 @@
           "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.30.1.arm64_big_sur.bottle.tar.gz",
-              "sha256": "53c147ae99043706072a5ada0ecf764a8f386fb4f3afa7aa20546cc33a349d84"
+              "url": "https://homebrew.bintray.com/bottles/git-2.31.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "82be780c2468d4e315f861ea797e98a93084bb754d8610c06a346eea74d82150"
             },
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.30.1.big_sur.bottle.tar.gz",
-              "sha256": "c0be5c5895bd3a85bd83953fd9f6fec3864d8ea419b4678b43afaac7217b9853"
+              "url": "https://homebrew.bintray.com/bottles/git-2.31.1.big_sur.bottle.tar.gz",
+              "sha256": "cf1fe81d5928efa530d891ec341d34c262b1eb7ea457191359476168ae323b93"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.30.1.catalina.bottle.tar.gz",
-              "sha256": "0dd5f43dc263da3d87a83216392fedd96774bd0c9f89e2dc717c549b1803e8d6"
+              "url": "https://homebrew.bintray.com/bottles/git-2.31.1.catalina.bottle.tar.gz",
+              "sha256": "6247bd388d85b30900923c32c0cd10caf7d48d41429c8f65a780d61b493ee9a4"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.30.1.mojave.bottle.tar.gz",
-              "sha256": "c84740ee72f1909fe019bba32ccf265b393df5c2fbd5d31886cca5904928f1b9"
+              "url": "https://homebrew.bintray.com/bottles/git-2.31.1.mojave.bottle.tar.gz",
+              "sha256": "ff281db6c9d895705c252ab4a7798c7274df2484c8cd5f22647e76c83ceabfca"
             }
           }
         }
@@ -164,7 +164,7 @@
         }
       },
       "ffmpeg": {
-        "version": "4.3.2",
+        "version": "4.3.2_4",
         "bottle": {
           "rebuild": 0,
           "cellar": "/usr/local/Cellar",
@@ -172,20 +172,20 @@
           "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.arm64_big_sur.bottle.tar.gz",
-              "sha256": "0515c9f60fc6d3975f0ce707414426a62484e6974cd1fd121e5e55457556afc7"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2_4.arm64_big_sur.bottle.tar.gz",
+              "sha256": "549f899dadc339af7069355aa3a34591f536843efc431b2541693bc806ca5048"
             },
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.big_sur.bottle.tar.gz",
-              "sha256": "c749fddc306f2bce4d15ca20cc8e1f7b28082dd381af57486c72a641e71f0ccf"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2_4.big_sur.bottle.tar.gz",
+              "sha256": "5275547e1b3dba43749ce3d91ddd92120ccc6d5f98090dd01dba2a2e615d8166"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.catalina.bottle.tar.gz",
-              "sha256": "ed0fc90c66b35c84a904ba01ab3e37c31a0c63a64889b2ab99718288d52404e4"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2_4.catalina.bottle.tar.gz",
+              "sha256": "5584b6d04f9d24a3bae17c6ebd640a7023e063b5c879b9a1cfb584dc51e6a527"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2.mojave.bottle.tar.gz",
-              "sha256": "33cc1c8ede50ab0b7f38a37c1a85c9060165334200f59d735dd8bd8627508f0d"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.2_4.mojave.bottle.tar.gz",
+              "sha256": "39af46559faf9aeb3aefa10c60aefd1563815518fdab86a1fa44ec11e886da1a"
             }
           }
         }
@@ -193,7 +193,7 @@
     },
     "cask": {
       "atom": {
-        "version": "1.54.0",
+        "version": "1.55.0",
         "options": {
           "full_name": "atom"
         }
@@ -205,31 +205,31 @@
         }
       },
       "firefox": {
-        "version": "86.0",
+        "version": "87.0",
         "options": {
           "full_name": "firefox"
         }
       },
       "dropbox": {
-        "version": "116.4.368",
+        "version": "119.4.1772",
         "options": {
           "full_name": "dropbox"
         }
       },
       "1password": {
-        "version": "7.7",
+        "version": "7.8",
         "options": {
           "full_name": "1password"
         }
       },
       "notion": {
-        "version": "2.0.14",
+        "version": "2.0.17",
         "options": {
           "full_name": "notion"
         }
       },
       "docker": {
-        "version": "3.1.0,51484",
+        "version": "3.2.2,61853",
         "options": {
           "full_name": "docker"
         }
@@ -265,7 +265,7 @@
         }
       },
       "musicbrainz-picard": {
-        "version": "2.5.6",
+        "version": "2.6",
         "options": {
           "full_name": "musicbrainz-picard"
         }
@@ -289,10 +289,10 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "3.0.3",
+        "HOMEBREW_VERSION": "3.0.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c59c835ae3098b49120a1695c13fd459ec8c65b4",
-        "CLT": "1103.0.32.62",
+        "Homebrew/homebrew-core": "f4b054bcfb86de6c468dc44fede5f1f475924f9d",
+        "CLT": "11.3.0.32.62",
         "Xcode": "11.5",
         "macOS": "10.15.7"
       }
