@@ -1,6 +1,6 @@
 directory: ~/Dropbox/Media/Music
 library: ~/Dropbox/Media/Music/beet-library.db
-plugins: convert
+plugins: convert alternatives
 convert:
   copy_album_art: yes
   never_convert_lossy_files: yes
@@ -11,3 +11,9 @@ convert:
     mobile:
       command: ffmpeg -i $source -y -vn -ab 320k -ar 44100 $dest
       extension: mp3
+alternatives:
+  cloudplayer:
+    directory: ../../Apps/CloudPlayer
+    formats: mobile AAC aac mp3
+    query: ""
+    removable: true
