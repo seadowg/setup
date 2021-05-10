@@ -9,8 +9,8 @@ fi
 brew bundle
 
 # Install beets
-rm '/usr/local/bin/pip3'
-brew link python@3.7 --force
+rm -r '/usr/local/bin/pip3'
+brew link --overwrite python@3.7 --force
 if ! command -v beet &> /dev/null
 then
   python3 -m pip install --user beets
@@ -20,4 +20,7 @@ fi
 cp beets-config.yaml ~/.config/beets/config.yaml
 
 # Setup bash
-chsh -s /bin/bash
+if [ $(echo "$SHELL") != "/bin/bash" ]
+then
+  chsh -s /bin/bash
+fi
