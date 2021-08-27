@@ -1,6 +1,6 @@
 directory: ~/Dropbox/Media/Music
 library: ~/Dropbox/Media/Music/beet-library.db
-plugins: convert alternatives
+plugins: convert alternatives copyartifacts
 convert:
   copy_album_art: yes
   never_convert_lossy_files: yes
@@ -17,3 +17,6 @@ alternatives:
     formats: mobile AAC aac mp3
     query: ""
     removable: true
+copyartifacts:
+    extensions: .pdf .jpg .png
+    print_ignored: yes
