@@ -14,7 +14,6 @@ brew link --overwrite python@3.7 --force
 if ! command -v beet &> /dev/null
 then
   python3 -m pip install --user beets
-  python3 -m pip install --user beets-alternatives
   python3 -m pip install --user beets-copyartifacts
 fi
 
