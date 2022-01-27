@@ -1,6 +1,6 @@
 .local_gitignore
 test-lab.sh
-pr-notes.md
+pr-notes.*
 disable-animations.sh
 enable-animations.sh
 .envrc
