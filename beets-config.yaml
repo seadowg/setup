@@ -8,9 +8,6 @@ convert:
     cd:
       command: ffmpeg -i $source -y -vn -sample_fmt s16 -ar 44100 $dest
       extension: flac
-    mobile:
-      command: ffmpeg -i $source -y -vn -ab 320k -ar 44100 $dest
-      extension: mp3
 copyartifacts:
     extensions: .pdf .jpg .png
     print_ignored: yes
