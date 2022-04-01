@@ -5,6 +5,7 @@ brew "circleci"
 brew "git-lfs"
 brew "direnv"
 brew "gh"
+brew "gradle-completion"
 
 cask "slack"
 cask "android-studio"
