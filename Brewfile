@@ -7,9 +7,9 @@ cask "firefox"
 cask "dropbox"
 cask "1password"
 cask "syncthing"
+cask "obsidian"
 
 # Work
-cask "notion"
 cask "toggl"
 
 # Dev
