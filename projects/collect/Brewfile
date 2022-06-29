@@ -3,7 +3,6 @@ tap "homebrew/cask"
 
 brew "circleci"
 brew "git-lfs"
-brew "direnv"
 brew "gh"
 brew "gradle-completion"
 

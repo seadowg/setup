@@ -31,4 +31,3 @@ fi
 echo ""
 echo "Caveats:"
 echo "* Checkman will need a Circle CI API key copied (from https://app.circleci.com/settings/user/tokens) in at ~/Checkman/Open\ Data\ Kit"
-echo "* Add eval \"\$(direnv hook bash)\" to the ~/.bash_profile to finish direnv setup"
