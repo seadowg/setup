@@ -6,7 +6,6 @@ tap "homebrew/core"
 cask "firefox"
 cask "dropbox"
 cask "1password"
-cask "syncthing"
 cask "obsidian"
 
 # Work
