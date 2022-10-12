@@ -12,6 +12,9 @@
       },
       "kryptco/tap": {
         "revision": "09d6448eedf6d932b78baee7972a29b669f3d6a5"
+      },
+      "seadowg/checkin": {
+        "revision": "b6bd0ff623463041da69a25aa0d0039008a00a09"
       }
     },
     "brew": {
@@ -308,6 +311,10 @@
             }
           }
         }
+      },
+      "checkin": {
+        "version": "0.1.0",
+        "bottle": false
       }
     },
     "cask": {

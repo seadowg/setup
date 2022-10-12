@@ -1,12 +1,14 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "seadowg/checkin"
 
 # General
 cask "firefox"
 cask "dropbox"
 cask "1password"
 cask "obsidian"
+brew "checkin"
 
 # Work
 cask "toggl"
@@ -29,4 +31,3 @@ cask "musicbrainz-picard"
 
 # Production
 cask "ableton-live-standard"
-cask "splice"
