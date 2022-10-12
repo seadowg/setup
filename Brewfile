@@ -26,7 +26,6 @@ cask "roon"
 brew "python@3.7" # Need for beets
 brew "ffmpeg" # Need for beets
 cask "musicbrainz-picard"
-cask "balance-lock"
 
 # Production
 cask "ableton-live-standard"
