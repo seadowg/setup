@@ -11,7 +11,7 @@ cask "obsidian"
 brew "checkin"
 
 # Work
-cask "toggl"
+cask "toggl-track"
 
 # Dev
 brew "bash-completion"
@@ -24,7 +24,6 @@ cask "docker"
 cask "gpg-suite"
 
 # Music
-cask "roon"
 brew "python@3.7" # Need for beets
 brew "ffmpeg" # Need for beets
 cask "musicbrainz-picard"
