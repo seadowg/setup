@@ -8,6 +8,9 @@ convert:
     cd:
       command: ffmpeg -i $source -y -vn -sample_fmt s16 -ar 44100 $dest
       extension: flac
+    cd_with_dither:
+      command: ffmpeg -i $source -y -vn -sample_fmt s16 -ar 44100 -dither_method triangular $dest
+      extension: flac
 copyartifacts:
     extensions: .pdf .jpg .png
     print_ignored: yes
