@@ -4,3 +4,4 @@ pr-notes.*
 disable-animations.sh
 enable-animations.sh
 .envrc
+nightly.sh
