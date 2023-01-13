@@ -9,9 +9,10 @@ cask "dropbox"
 cask "1password"
 cask "obsidian"
 brew "checkin"
+brew "mas"
 
 # Work
-cask "toggl-track"
+mas "Toggl Track: Hours & Time Log", id: 1291898086
 
 # Dev
 brew "bash-completion"
