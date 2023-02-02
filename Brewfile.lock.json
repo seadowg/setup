@@ -5,10 +5,10 @@
         "revision": "6f418bc7b41d9fef9ab85c47ed776ab13738cdfe"
       },
       "homebrew/cask": {
-        "revision": "ffe78a470ea3040d4ba907b19b4ad24819beb889"
+        "revision": "85fde78305444769d94c72b7fcc59987f13f3a4c"
       },
       "homebrew/core": {
-        "revision": "ce0cf91727c042f13ddd85505d7e39fd8fd04b37"
+        "revision": "7d2d8400876d962625cda79aaa8473e9b1c2cd1d"
       },
       "kryptco/tap": {
         "revision": "09d6448eedf6d932b78baee7972a29b669f3d6a5"
@@ -578,7 +578,7 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.20",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "ce0cf91727c042f13ddd85505d7e39fd8fd04b37",
+        "Homebrew/homebrew-core": "7d2d8400876d962625cda79aaa8473e9b1c2cd1d",
         "CLT": "14.2.0.0.1.1668646533",
         "Xcode": "14.1",
         "macOS": "13.2"

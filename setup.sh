@@ -11,11 +11,17 @@ source ~/.bash_profile
 
 brew bundle
 
-pip3 install --user beets
-cp beets-config.yaml ~/.config/beets/config.yaml
-
 # Setup bash
 if [ $(echo "$SHELL") != "/bin/bash" ]
 then
   chsh -s /bin/bash
 fi
+
+
+# Configure git
+git config --global user.name "Callum Stott"
+git config --global user.email "callum@seadowg.com"
+
+# Install beets
+pip3 install --user beets
+cp beets-config.yaml ~/.config/beets/config.yaml
