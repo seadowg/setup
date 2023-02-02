@@ -4,19 +4,17 @@
 if ! command -v brew &> /dev/null
 then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.profile
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.profile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 brew bundle
 
-# Install beets
-rm -r '/usr/local/bin/pip3'
-brew link --overwrite python@3.7 --force
-if ! command -v beet &> /dev/null
-then
-  python3 -m pip install --user beets
-  python3 -m pip install --user beets-copyartifacts
-fi
+cp bash_profile ~/.bash_profile
 
+pip3 install --user beets
 cp beets-config.yaml ~/.config/beets/config.yaml
 
 # Setup bash

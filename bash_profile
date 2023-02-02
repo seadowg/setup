@@ -2,8 +2,8 @@
 
 export PATH="/usr/local/sbin:$PATH"
 
-export PATH="/usr/local/opt/python@3.7/bin:$PATH"
-export PATH="$HOME/Library/Python/3.7/bin:$PATH"
+# Add python tools to the PATH
+export PATH="~/Library/Python/3.9/bin/:$PATH"
 
 eval "$(direnv hook bash)"
 
