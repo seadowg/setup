@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "seadowg/checkin"
+tap "homebrew/cask-versions"
 
 # General
 cask "firefox"
@@ -29,4 +30,4 @@ brew "ffmpeg" # Need for beets
 cask "musicbrainz-picard"
 
 # Production
-cask "ableton-live-standard"
+cask "ableton-live-standard10"

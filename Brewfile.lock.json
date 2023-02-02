@@ -15,6 +15,9 @@
       },
       "seadowg/checkin": {
         "revision": "b6bd0ff623463041da69a25aa0d0039008a00a09"
+      },
+      "homebrew/cask-versions": {
+        "revision": "551c481e5ca889cd221ca44a9fb0e9a16ea8e479"
       }
     },
     "brew": {
@@ -525,6 +528,12 @@
         "version": "7.5.441",
         "options": {
           "full_name": "toggl-track"
+        }
+      },
+      "ableton-live-standard10": {
+        "version": "10.1.43",
+        "options": {
+          "full_name": "ableton-live-standard10"
         }
       }
     },
