@@ -20,6 +20,7 @@ fi
 # Configure git
 git config --global user.name "Callum Stott"
 git config --global user.email "callum@seadowg.com"
+git config --global commit.gpgsign true
 
 # Install beets
 if ! command -v beet &> /dev/null
