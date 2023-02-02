@@ -24,7 +24,7 @@ setup() {
 if [ -d ~/workspace/collect ]; then
   setup
 else
-  git clone git@github.com:getodk/collect.git ~/workspace/collect
+  git clone git@github.com:seadowg/collect.git ~/workspace/collect
   setup
 fi
 
