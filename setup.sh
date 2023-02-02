@@ -17,11 +17,13 @@ then
   chsh -s /bin/bash
 fi
 
-
 # Configure git
 git config --global user.name "Callum Stott"
 git config --global user.email "callum@seadowg.com"
 
 # Install beets
-pip3 install --user beets
+if ! command -v beet &> /dev/null
+then
+  pip3 install --user beets
+fi
 cp beets-config.yaml ~/.config/beets/config.yaml
