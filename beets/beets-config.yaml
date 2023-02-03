@@ -1,6 +1,6 @@
-directory: ~/Dropbox/Media/Music
-library: ~/Dropbox/Media/Music/beet-library.db
-plugins: convert copyartifacts
+directory: /home/beets/music
+library: /home/beets/music/beet-library.db
+plugins: convert extrafiles
 convert:
   copy_album_art: yes
   never_convert_lossy_files: yes
@@ -14,3 +14,9 @@ convert:
 copyartifacts:
     extensions: .pdf .jpg .png
     print_ignored: yes
+extrafiles:
+    patterns:
+        jpg: '*.jpg'
+        pdf: '*.pdf'
+        png: '*.png'
+

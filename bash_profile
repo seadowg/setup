@@ -6,9 +6,6 @@ $(/opt/homebrew/bin/brew shellenv)
 
 export PATH="/usr/local/sbin:$PATH"
 
-# Add python tools to the PATH
-export PATH="~/Library/Python/3.9/bin/:$PATH"
-
 eval "$(direnv hook bash)"
 
 alias todo="vim $HOME/Sync/Todo.txt/todo.txt"

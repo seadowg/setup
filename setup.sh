@@ -1,5 +1,11 @@
 #! /bin/bash
 
+# Setup bash
+if [ $(echo "$SHELL") != "/bin/bash" ]
+then
+  chsh -s /bin/bash
+fi
+
 # Install brew
 if ! command -v brew &> /dev/null
 then
@@ -11,20 +17,13 @@ source ~/.bash_profile
 
 brew bundle
 
-# Setup bash
-if [ $(echo "$SHELL") != "/bin/bash" ]
-then
-  chsh -s /bin/bash
-fi
+# Install beats
+pushd beets
+  docker build -t seadowg/beets .
+popd
+cp -a beet /usr/local/bin/
 
 # Configure git
 git config --global user.name "Callum Stott"
 git config --global user.email "callum@seadowg.com"
 git config --global commit.gpgsign true
-
-# Install beets
-if ! command -v beet &> /dev/null
-then
-  pip3 install --user beets
-fi
-cp beets-config.yaml ~/.config/beets/config.yaml

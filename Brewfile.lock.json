@@ -5,10 +5,10 @@
         "revision": "6f418bc7b41d9fef9ab85c47ed776ab13738cdfe"
       },
       "homebrew/cask": {
-        "revision": "85fde78305444769d94c72b7fcc59987f13f3a4c"
+        "revision": "d12e37658b2e1f6fba0b873a266a18a7b6773146"
       },
       "homebrew/core": {
-        "revision": "7d2d8400876d962625cda79aaa8473e9b1c2cd1d"
+        "revision": "188c1842bc571a8f7717027a790ebb1c6e9d5c8d"
       },
       "kryptco/tap": {
         "revision": "09d6448eedf6d932b78baee7972a29b669f3d6a5"
@@ -17,7 +17,7 @@
         "revision": "b6bd0ff623463041da69a25aa0d0039008a00a09"
       },
       "homebrew/cask-versions": {
-        "revision": "551c481e5ca889cd221ca44a9fb0e9a16ea8e479"
+        "revision": "c9dbb620296909b1999c097e606739b955efa6f4"
       }
     },
     "brew": {
@@ -513,7 +513,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.74.3",
+        "version": "1.75.0",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -578,7 +578,7 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.20",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "7d2d8400876d962625cda79aaa8473e9b1c2cd1d",
+        "Homebrew/homebrew-core": "188c1842bc571a8f7717027a790ebb1c6e9d5c8d",
         "CLT": "14.2.0.0.1.1668646533",
         "Xcode": "14.1",
         "macOS": "13.2"

@@ -26,7 +26,6 @@ cask "docker"
 cask "gpg-suite"
 
 # Music
-brew "ffmpeg" # Need for beets
 cask "musicbrainz-picard"
 
 # Production
