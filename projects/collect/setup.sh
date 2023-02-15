@@ -18,6 +18,7 @@ setup() {
     curl https://raw.githubusercontent.com/cppforlife/checkman/master/bin/install | bash -s
     rm ~/Checkman/example
     cp Open\ Data\ Kit ~/Checkman/Open\ Data\ Kit
+    defaults write com.tomato.Checkman stickies.disabled -bool YES
   fi
 }
 
