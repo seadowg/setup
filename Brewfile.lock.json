@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "bac31a976d146f35c182dec6f6d65f7a917fd8c0"
+        "revision": "99dc787b5095521ef071fbca970c822936733009"
       },
       "homebrew/cask": {
         "revision": "f7c0fa43868612596c717008d6c79ce82e9028b2"
@@ -17,7 +17,7 @@
         "revision": "b6bd0ff623463041da69a25aa0d0039008a00a09"
       },
       "homebrew/cask-versions": {
-        "revision": "cf7e25c37d5ea68dbf93f57bcc7e3645e6fb5620"
+        "revision": "47d2ab260fbf4cb6a16fbd564ea3338d6a62bfe3"
       }
     },
     "brew": {
@@ -435,13 +435,13 @@
         }
       },
       "firefox": {
-        "version": "110.0",
+        "version": "110.0.1",
         "options": {
           "full_name": "firefox"
         }
       },
       "dropbox": {
-        "version": "167.4.4719",
+        "version": "168.4.4802",
         "options": {
           "full_name": "dropbox"
         }
@@ -459,7 +459,7 @@
         }
       },
       "docker": {
-        "version": "4.16.2,95914",
+        "version": "4.17.0,99724",
         "options": {
           "full_name": "docker"
         }
@@ -489,7 +489,7 @@
         }
       },
       "gpg-suite": {
-        "version": "2022.2",
+        "version": "2023.1",
         "options": {
           "full_name": "gpg-suite"
         }
@@ -519,7 +519,7 @@
         }
       },
       "obsidian": {
-        "version": "1.1.9",
+        "version": "1.1.15",
         "options": {
           "full_name": "obsidian"
         }
@@ -576,9 +576,9 @@
         "macOS": "12.6.2"
       },
       "ventura": {
-        "HOMEBREW_VERSION": "4.0.1",
+        "HOMEBREW_VERSION": "4.0.4",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "cd96f13c0adb03e8aeeedab9e97e901ec12f6e15",
+        "Homebrew/homebrew-core": "api",
         "CLT": "14.2.0.0.1.1668646533",
         "Xcode": "14.1",
         "macOS": "13.2.1"
