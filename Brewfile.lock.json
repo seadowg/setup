@@ -17,7 +17,7 @@
         "revision": "b6bd0ff623463041da69a25aa0d0039008a00a09"
       },
       "homebrew/cask-versions": {
-        "revision": "47d2ab260fbf4cb6a16fbd564ea3338d6a62bfe3"
+        "revision": "db932d036874773c73f8c9131fbc874807b2374e"
       }
     },
     "brew": {
@@ -513,13 +513,13 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.75.1",
+        "version": "1.76.0",
         "options": {
           "full_name": "visual-studio-code"
         }
       },
       "obsidian": {
-        "version": "1.1.15",
+        "version": "1.1.16",
         "options": {
           "full_name": "obsidian"
         }
