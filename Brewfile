@@ -9,6 +9,7 @@ cask "1password"
 cask "obsidian"
 brew "checkin"
 brew "mas"
+brew "languagetool"
 
 # Work
 mas "Toggl Track: Hours & Time Log", id: 1291898086
