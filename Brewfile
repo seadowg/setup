@@ -4,7 +4,6 @@ tap "homebrew/cask-versions"
 
 # General
 cask "firefox"
-cask "dropbox"
 cask "1password"
 cask "obsidian"
 brew "checkin"
