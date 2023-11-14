@@ -3,7 +3,6 @@ tap "seadowg/checkin"
 tap "homebrew/cask-versions"
 
 # General
-cask "firefox"
 cask "1password"
 cask "obsidian"
 cask "mountain-duck"
