@@ -19,7 +19,7 @@ brew "bash-completion"
 brew "git"
 brew "gti"
 brew "direnv"
-cask "visual-studio-code"
+cask "fleet"
 cask "iterm2"
 cask "docker"
 cask "gpg-suite"
@@ -28,4 +28,8 @@ cask "gpg-suite"
 cask "musicbrainz-picard"
 
 # Production
-cask "ableton-live-standard10"
+cask "ableton-live-standard"
+
+# Games
+
+cask "steam"
