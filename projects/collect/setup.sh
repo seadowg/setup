@@ -3,7 +3,6 @@
 setup() {
   cp disable-animations.sh ~/workspace/collect
   cp enable-animations.sh ~/workspace/collect
-  cp test-lab.sh ~/workspace/collect
   cp local_gitignore ~/workspace/collect/.local_gitignore
   cp envrc ~/workspace/collect/.envrc
   touch ~/workspace/collect/pr-notes.md
