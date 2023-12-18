@@ -26,6 +26,7 @@ cask "gpg-suite"
 
 # Music
 cask "musicbrainz-picard"
+cask "plexamp"
 
 # Production
 cask "ableton-live-standard"
