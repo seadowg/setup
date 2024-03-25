@@ -3,4 +3,4 @@ tap "homebrew/bundle"
 brew "icecast"
 brew "rclone"
 cask "butt"
-cask "plex-media-server
+cask "plex-media-server"
