@@ -27,7 +27,7 @@ done
 echo "";
 
 
-pushd beets
+pushd beets-docker
   docker build -t seadowg/beets .
 popd
 cp -a beet /usr/local/bin/
