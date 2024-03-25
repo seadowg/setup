@@ -13,3 +13,6 @@ then
 fi
 
 brew bundle
+
+cp start-icecast.sh ~
+cp sync-music.sh ~
