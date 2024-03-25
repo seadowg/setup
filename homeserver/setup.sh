@@ -1,11 +1,3 @@
-#! /bin/bash
-
-# Setup bash
-if [ $(echo "$SHELL") != "/bin/bash" ]
-then
-  chsh -s /bin/bash
-fi
-
 # Install brew
 if ! command -v brew &> /dev/null
 then
