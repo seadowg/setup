@@ -6,5 +6,5 @@ fi
 
 brew bundle
 
-cp start-icecast.sh ~
+cp start.sh ~
 cp sync-music.sh ~
