@@ -19,7 +19,7 @@ brew "bash-completion"
 brew "git"
 brew "gti"
 brew "direnv"
-cask "zed"
+cask "fleet"
 cask "iterm2"
 cask "docker"
 cask "gpg-suite"
@@ -32,5 +32,4 @@ cask "plexamp"
 cask "ableton-live-standard"
 
 # Games
-
 cask "steam"
