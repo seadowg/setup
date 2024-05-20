@@ -6,6 +6,7 @@ setup() {
   cp local_gitignore ~/workspace/collect/.local_gitignore
   cp envrc ~/workspace/collect/.envrc
   touch ~/workspace/collect/pr-notes.md
+  cp kill-emulator.sh ~/workspace/kill-emulator.sh
 
   pushd ~/workspace/collect
     git config --local core.excludesfile ~/workspace/collect/.local_gitignore

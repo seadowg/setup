@@ -5,3 +5,4 @@ disable-animations.sh
 enable-animations.sh
 .envrc
 nightly.sh
+kill-emulator.sh
