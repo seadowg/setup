@@ -22,4 +22,4 @@ popd
 
 cp beet ~
 cp start.sh ~
-cp sync-music.sh ~
+cp backup-music.sh ~
