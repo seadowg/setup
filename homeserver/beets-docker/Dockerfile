@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:jammy
 
 RUN adduser beets
 RUN apt-get update && apt-get install -y beets ffmpeg
