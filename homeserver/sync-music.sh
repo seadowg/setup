@@ -1,1 +1,1 @@
-rclone sync -P dropbox:/Media/Music ~/Mounts/Music
+rclone sync -P ~/Mounts/Music dropbox:/Media/Music

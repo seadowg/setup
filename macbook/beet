@@ -1,3 +1,0 @@
-#! /bin/bash
-
-docker run -it -v $HOME/Mounts/Dropbox.localized/Media/Music:/home/beets/music -v $HOME/Downloads:/home/beets/downloads -v  $HOME/XLD:/home/beets/xld seadowg/beets
