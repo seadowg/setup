@@ -21,3 +21,6 @@ brew bundle
 git config --global user.name "Callum Stott"
 git config --global user.email "callum@seadowg.com"
 git config --global commit.gpgsign true
+
+# Copy scripts
+cp copy-to-nexus /usr/local/bin/
