@@ -1,11 +1,12 @@
 FROM ubuntu:jammy
 
+RUN apt-get update && apt-get install -y python3 python3-pip ffmpeg
+
 RUN adduser beets
-RUN apt-get update && apt-get install -y beets ffmpeg
-RUN apt-get update && apt-get install -y wget unzip
+USER beets
+RUN pip install --user beets
+RUN pip install --user beets-extrafiles
 COPY beets-config.yaml /home/beets/.config/beets/config.yaml
 
-USER beets
-RUN pip install --user beets-extrafiles
-
+ENV PATH="$PATH:~/.local/bin/"
 WORKDIR /home/beets
