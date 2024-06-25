@@ -9,6 +9,7 @@ cask "mountain-duck"
 brew "checkin"
 brew "mas"
 brew "languagetool"
+brew "pandoc"
 mas "Hand Mirror", id: 1502839586
 
 # Work
