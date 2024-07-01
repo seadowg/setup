@@ -11,6 +11,7 @@ brew "mas"
 brew "languagetool"
 brew "pandoc"
 mas "Hand Mirror", id: 1502839586
+brew "rclone"
 
 # Work
 mas "Toggl Track: Hours & Time Log", id: 1291898086
