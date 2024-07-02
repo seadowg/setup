@@ -25,3 +25,6 @@ git config --global commit.gpgsign true
 # Copy scripts
 cp copy-to-nexus /usr/local/bin/
 cp backup-books.sh /usr/local/bin/backup-books
+
+# Copy services
+cp -r services/* ~/Library/Services
