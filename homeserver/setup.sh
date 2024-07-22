@@ -21,5 +21,13 @@ pushd beets-docker
 popd
 
 cp beet ~
+
+# Setup backups
+cp checkin ~/.checkin
+pushd ~/Library/Application\ Support/Plex\ Media\ Server/
+  checkin init plex-server
+popd
+
+# Copy scripts
 cp start.sh ~
 cp backup-music.sh ~
