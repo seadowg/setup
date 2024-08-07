@@ -6,3 +6,4 @@ enable-animations.sh
 .envrc
 nightly.sh
 kill-emulator.sh
+decode-qr.sh

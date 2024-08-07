@@ -4,6 +4,8 @@ brew "circleci"
 brew "git-lfs"
 brew "gh"
 brew "gradle-completion"
+brew "base64"
+brew "qpdf"
 
 cask "slack"
 cask "android-studio"
