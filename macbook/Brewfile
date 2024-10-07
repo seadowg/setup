@@ -25,6 +25,7 @@ cask "fleet"
 cask "iterm2"
 cask "docker"
 cask "gpg-suite"
+brew "wget"
 
 # Music
 cask "musicbrainz-picard"
