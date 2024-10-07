@@ -1,11 +1,11 @@
 #! /bin/bash
+set -e
 
 setup() {
   cp disable-animations.sh ~/workspace/collect
   cp enable-animations.sh ~/workspace/collect
   cp local_gitignore ~/workspace/collect/.local_gitignore
   cp envrc ~/workspace/collect/.envrc
-  touch ~/workspace/collect/pr-notes.md
   cp kill-emulator.sh ~/workspace/collect
   cp decode-qr.sh ~/workspace/collect
 

@@ -1,6 +1,5 @@
 tap "homebrew/bundle"
 tap "seadowg/checkin"
-tap "homebrew/cask-versions"
 
 # General
 cask "1password"
