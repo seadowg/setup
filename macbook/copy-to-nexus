@@ -1,1 +1,1 @@
-scp -r $1 nexus@nexus.local:/Users/nexus/Downloads
+scp -r "$1" nexus@nexus.local:/Users/nexus/Downloads
