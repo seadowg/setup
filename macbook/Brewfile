@@ -12,6 +12,7 @@ brew "pandoc"
 mas "Hand Mirror", id: 1502839586
 brew "rclone"
 cask "todoist"
+cask "firefox"
 
 # Work
 mas "Toggl Track: Hours & Time Log", id: 1291898086
