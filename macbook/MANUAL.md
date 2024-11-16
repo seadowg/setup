@@ -4,3 +4,4 @@
 4. Set Mountain Duck to sync to `~/Mounts`
 5. Setup `Android` syncing using Android Google Drive account with Mountain Duck as a connection named `Android` and with the path `/My Drive`
 6. Setup LanguageTool by running: `brew services start languagetool`
+7. Setup `rclone` with `dropbox` remote by running `rclone config`
