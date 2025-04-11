@@ -30,7 +30,7 @@ brew "wget"
 
 # Music
 cask "musicbrainz-picard"
-cask "plexamp"
+cask "roon"
 
 # Production
 cask "ableton-live-standard"
