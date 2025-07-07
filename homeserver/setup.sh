@@ -31,3 +31,4 @@ popd
 # Copy scripts
 cp start.sh ~
 cp backup-music.sh ~
+cp restart-roon.sh ~
