@@ -28,6 +28,7 @@ cask "iterm2"
 cask "docker"
 cask "gpg-suite"
 brew "wget"
+mas "Prompt", id: 1594420480
 
 # Music
 cask "musicbrainz-picard"
