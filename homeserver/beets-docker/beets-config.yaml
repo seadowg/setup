@@ -1,6 +1,6 @@
 directory: /home/beets/music
 library: /home/beets/music/beet-library.db
-plugins: convert extrafiles
+plugins: convert extrafiles info
 asciify_paths: yes
 format_item: $artist - $album - $title ($format $bitrate $samplerate $bitdepth)
 convert:
