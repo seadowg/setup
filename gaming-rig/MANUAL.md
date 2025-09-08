@@ -1,0 +1,1 @@
+1. Add `MANGOHUD=1` to `/etc/environment`
