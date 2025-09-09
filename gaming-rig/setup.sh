@@ -1,3 +1,5 @@
+set -e
+
 # Install Steam
 wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i steam.deb
@@ -8,4 +10,4 @@ sudo dpkg -i .//sunshine-ubuntu-24.04-amd64.deb
 
 # Install and configure MangoHud
 sudo apt install mangohud
-cp MangoHud.conf ~/.config/MangoHud/MangoHud.conf
+mkdir -p ~/.config/MangoHud/ && cp MangoHud.conf ~/.config/MangoHud/MangoHud.conf
