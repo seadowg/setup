@@ -36,6 +36,3 @@ cask "roon"
 
 # Production
 cask "ableton-live-standard"
-
-# Games
-cask "steam"
