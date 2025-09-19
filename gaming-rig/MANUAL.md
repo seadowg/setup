@@ -37,5 +37,5 @@ SteamDeck=1 %command%
 ```
 GRUM_DEFAULT=<preferred option>
 GRUB_TIMEOUT_STYLE=menu
-GRUB_TIMEOUT=10
+GRUB_TIMEOUT=5
 ```
