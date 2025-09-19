@@ -7,14 +7,14 @@ For just streaming:
 
 - Full screen
 - 1440p
-- VSync disabled
+- VSync enabled
 - Disabled frame limit
 
 For desktop and streaming:
 
 - Full screen
 - 4K
-- VSync disabled
+- VSync enabled
 - Disabled frame limit
 
 ## Exceptions
@@ -33,10 +33,6 @@ Steam launch option:
 ```
 --skip-launcher --vulkan
 ```
-
-## Dredge
-
-- Enable VSync in-game
 
 # Grub config for dual boot
 
