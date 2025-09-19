@@ -17,9 +17,11 @@ For desktop and streaming:
 - VSync disabled
 - Disabled frame limit
 
-# Steam launch options
+## Exceptions
 
 ## Space Marine 2
+
+Steam launch option:
 
 ```
 SteamDeck=1 %command%
@@ -27,9 +29,14 @@ SteamDeck=1 %command%
 
 ## Baldur's Gate 3
 
+Steam launch option:
 ```
 --skip-launcher --vulkan
 ```
+
+## Dredge
+
+- Enable VSync in-game
 
 # Grub config for dual boot
 
