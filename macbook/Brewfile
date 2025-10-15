@@ -14,6 +14,7 @@ brew "rclone"
 cask "todoist"
 cask "firefox"
 cask "netnewswire"
+mas "Balance Lock", id: 1019371109
 
 # Work
 mas "Toggl Track: Hours & Time Log", id: 1291898086
