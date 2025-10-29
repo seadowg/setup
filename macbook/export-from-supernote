@@ -1,1 +1,2 @@
 mv /Volumes/NOC/Supernote/EXPORT/* ~/Downloads
+diskutil eject /dev/disk4
