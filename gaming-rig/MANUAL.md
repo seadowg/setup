@@ -9,7 +9,6 @@
     ```
     displayconfig-mutter set --connector <output name> --resolution 3840x2160 --refresh-rate 60
     ```
-    - Add `steam` as "Detached command" to ensure it always starts
 
 # Game settings
 

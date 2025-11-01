@@ -3,7 +3,7 @@ set -e
 # Install Steam
 wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i --skip-same-version steam.deb
-rm steam.db
+rm steam.deb
 
 # Install Sunshine
 wget https://github.com/LizardByte/Sunshine/releases/download/v2025.628.4510/sunshine-ubuntu-24.04-amd64.deb
@@ -29,3 +29,4 @@ curl "https://github.com/eaglesemanation/displayconfig-mutter/releases/latest/do
 wget https://github.com/FrogTheFrog/moondeck-buddy/releases/download/v1.9.1/MoonDeckBuddy-1.9.1-x86_64.AppImage
 chmod +x MoonDeckBuddy-1.9.1-x86_64.AppImage
 ./MoonDeckBuddy-1.9.1-x86_64.AppImage
+cp MooDeckBuddy-settings.json ~/.config/settings.json
