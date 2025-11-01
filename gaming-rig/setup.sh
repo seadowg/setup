@@ -9,7 +9,7 @@ rm steam.deb
 wget https://github.com/LizardByte/Sunshine/releases/download/v2025.628.4510/sunshine-ubuntu-24.04-amd64.deb
 sudo dpkg -i --skip-same-version sunshine-ubuntu-24.04-amd64.deb
 cp sunshine.desktop ~/.config/autostart/sunshine.desktop
-rm unshine-ubuntu-24.04-amd64.deb
+rm sunshine-ubuntu-24.04-amd64.deb
 
 # Install and configure MangoHud
 sudo apt install mangohud
