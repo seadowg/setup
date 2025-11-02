@@ -43,6 +43,14 @@ Steam launch option:
 --skip-launcher --vulkan
 ```
 
+## God of War Ragnarok
+
+Steam launch option:
+
+```
+SteamDeck=1 %command%
+```
+
 # Grub config for dual boot
 
  Edit/add the following Grub config in `/etc/default/grub` to enable automatic booting (after 10s) while still allowing OS switching:
