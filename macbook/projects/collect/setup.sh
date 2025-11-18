@@ -8,6 +8,7 @@ setup() {
   cp envrc ~/workspace/collect/.envrc
   cp kill-emulator.sh ~/workspace/collect
   cp decode-qr.sh ~/workspace/collect
+  cp structuralSearch.xml ~/workspace/collect/.idea/structuralSearch.xml
 
   pushd ~/workspace/collect
     git config --local core.excludesfile ~/workspace/collect/.local_gitignore

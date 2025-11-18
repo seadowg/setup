@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StructuralSearch">
+    <replaceConfiguration name="Replace assertEquals with assertThat" text="assertEquals($arg1$, $arg2$)" recursive="false" caseInsensitive="false" type="Kotlin" pattern_context="default" reformatAccordingToStyle="true" shortenFQN="true" replacement="assertThat($arg1$, equalTo($arg2$))">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="arg1" within="" contains="" />
+      <constraint name="arg2" within="" contains="" />
+    </replaceConfiguration>
+  </component>
+</project>
