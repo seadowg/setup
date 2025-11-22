@@ -51,6 +51,18 @@ Steam launch option:
 SteamDeck=1 %command%
 ```
 
+## Detroit: Become Human
+
+In-game settings:
+
+- Lower Texture Quality to Medium
+
+Steam launch option:
+
+```
+RADV_PERFTEST=transfer_queue %command%
+```
+
 # Grub config for dual boot
 
  Edit/add the following Grub config in `/etc/default/grub` to enable automatic booting (after 10s) while still allowing OS switching:
