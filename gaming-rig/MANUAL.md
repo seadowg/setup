@@ -65,9 +65,26 @@ RADV_PERFTEST=transfer_queue %command%
 
 ## Gears 5
 
-In-game settings:
+Requires AMDVLK to prevent crashes (using Mesa 25.0.7). Can be installed like so:
 
-- Maximum frame rate to 60
+```
+cd ~/Downloads
+wget https://github.com/GPUOpen-Drivers/AMDVLK/releases/download/v-2025.Q2.1/amdvlk_2025.Q2.1_amd64.deb
+sudo dpkg -i amdvlk_2025.Q2.1_amd64.deb
+sudo apt-get install -f
+```
+
+Steam will still default to Mesa, but AMDVLK can be forced with launch option (below). To make sure the rest of the system still uses Mesa, add this to `/etc/environment`:
+
+```
+AMD_VULKAN_ICD=RADV
+```
+
+Steam launch option:
+
+```
+VK_ICD_FILENAMES=/etc/vulkan/icd.d/amd_icd64.json %command%
+```
 
 # Grub config for dual boot
 
