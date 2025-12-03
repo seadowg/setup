@@ -90,6 +90,8 @@ Steam launch option:
 VK_ICD_FILENAMES=/etc/vulkan/icd.d/amd_icd64.json %command%
 ```
 
+`VK_ICD_FILENAMES` is used instead of `AMD_VULKAN_ICD` because of https://github.com/ValveSoftware/steam-for-linux/issues/10413.
+
 # Grub config for dual boot
 
  Edit/add the following Grub config in `/etc/default/grub` to enable automatic booting (after 10s) while still allowing OS switching:
