@@ -80,6 +80,10 @@ Steam will still default to Mesa, but AMDVLK can be forced with launch option (b
 AMD_VULKAN_ICD=RADV
 ```
 
+In-game settings:
+
+- Set Maximum Frame Rate to 60
+
 Steam launch option:
 
 ```
