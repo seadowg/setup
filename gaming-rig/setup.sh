@@ -16,7 +16,8 @@ cp sunshine.desktop ~/.config/autostart/sunshine.desktop
 
 # Install and configure MangoHud
 sudo apt install mangohud
-mkdir -p ~/.config/MangoHud/ && cp MangoHud.conf ~/.config/MangoHud/MangoHud.conf
+mkdir -p ~/.config/MangoHud/
+echo -e "gpu_temp\ncpu_temp\nram\nvram\ntoggle_hud=F6\nfps_limit=60" > ~/.config/MangoHud/MangoHud.conf
 if !$(grep -q "MANGOHUD=1" /etc/environment); then
     sudo -c 'echo "MANGOHUD=1" >> /etc/environment'
 fi
