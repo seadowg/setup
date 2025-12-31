@@ -15,8 +15,8 @@ rm steam.deb
 sudo apt install mangohud
 mkdir -p ~/.config/MangoHud/
 echo -e "gpu_temp\ncpu_temp\nram\nvram\ntoggle_hud=F6\nfps_limit=60\n" > ~/.config/MangoHud/MangoHud.conf
-if !$(grep -q "MANGOHUD=1" /etc/environment); then
-    sudo -c 'echo "MANGOHUD=1" >> /etc/environment'
+if ! $(grep -q "MANGOHUD=1" /etc/environment); then
+    sudo bash -c 'echo "MANGOHUD=1" >> /etc/environment'
 fi
 
 # Install Heroic Launcher (commented out until https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/4917 is fixed)
