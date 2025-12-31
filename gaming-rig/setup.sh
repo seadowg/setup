@@ -1,6 +1,6 @@
 set -e
 
-wget -qO- https://raw.githubusercontent.com/seadowg/setup/refs/heads/master/gaming-rig/rig.sh | bash
+wget -qO- https://gitlab.com/seadowg/rig/-/raw/main/rig.sh | bash
 
 # Install Sunshine
 curl -O -L https://github.com/LizardByte/Sunshine/releases/download/v2025.924.154138/sunshine-ubuntu-24.04-amd64.deb
