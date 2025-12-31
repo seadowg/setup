@@ -11,12 +11,6 @@ curl -O https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i --skip-same-version steam.deb
 rm steam.deb
 
-# Install Sunshine
-curl -O https://github.com/LizardByte/Sunshine/releases/download/v2025.924.154138/sunshine-ubuntu-24.04-amd64.deb
-sudo dpkg -i --skip-same-version sunshine-ubuntu-24.04-amd64.deb
-rm sunshine-ubuntu-24.04-amd64.deb
-cp sunshine.desktop ~/.config/autostart/sunshine.desktop
-
 # Install and configure MangoHud
 sudo apt install mangohud
 mkdir -p ~/.config/MangoHud/
@@ -31,6 +25,12 @@ fi
 
 # Set power profile
 sudo powerprofilesctl set performance
+
+# Install Sunshine
+curl -O https://github.com/LizardByte/Sunshine/releases/download/v2025.924.154138/sunshine-ubuntu-24.04-amd64.deb
+sudo dpkg -i --skip-same-version sunshine-ubuntu-24.04-amd64.deb
+rm sunshine-ubuntu-24.04-amd64.deb
+cp sunshine.desktop ~/.config/autostart/sunshine.desktop
 
 # Install displayconfig-mutter (for changing Sunshine stream resolutions)
 curl "https://github.com/eaglesemanation/displayconfig-mutter/releases/latest/download/displayconfig-mutter-$(uname -m)" -L -o displayconfig-mutter \
