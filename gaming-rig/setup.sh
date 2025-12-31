@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade
 sudo apt install curl
 
 # Install Steam
-curl -O https://cdn.fastly.steamstatic.com/client/installer/steam.deb
+curl -O -L https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i --skip-same-version steam.deb
 rm steam.deb
 
@@ -27,7 +27,7 @@ fi
 sudo powerprofilesctl set performance
 
 # Install Sunshine
-curl -O https://github.com/LizardByte/Sunshine/releases/download/v2025.924.154138/sunshine-ubuntu-24.04-amd64.deb
+curl -O -L https://github.com/LizardByte/Sunshine/releases/download/v2025.924.154138/sunshine-ubuntu-24.04-amd64.deb
 sudo dpkg -i --skip-same-version sunshine-ubuntu-24.04-amd64.deb
 rm sunshine-ubuntu-24.04-amd64.deb
 cp sunshine.desktop ~/.config/autostart/sunshine.desktop
@@ -39,6 +39,6 @@ curl "https://github.com/eaglesemanation/displayconfig-mutter/releases/latest/do
 
 # Install MoonDeckBuddy
 rm MoonDeckBuddy-1.9.1-x86_64.AppImage
-curl -O https://github.com/FrogTheFrog/moondeck-buddy/releases/download/v1.9.1/MoonDeckBuddy-1.9.1-x86_64.AppImage
+curl -O -L https://github.com/FrogTheFrog/moondeck-buddy/releases/download/v1.9.1/MoonDeckBuddy-1.9.1-x86_64.AppImage
 chmod +x MoonDeckBuddy-1.9.1-x86_64.AppImage
 cp MoonDeckBuddy-settings.json ~/.config/moondeckbuddy/settings.json
