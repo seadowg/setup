@@ -1,6 +1,5 @@
-1. Add `MANGOHUD=1` to `/etc/environment`
-2. Set Power Mode to "Performance"
-3. Add ["MoonDeckStream" app to Sunshine](https://github.com/FrogTheFrog/moondeck-buddy/wiki/Sunshine-setup)
+1. Set Power Mode to "Performance"
+2. Add ["MoonDeckStream" app to Sunshine](https://github.com/FrogTheFrog/moondeck-buddy/wiki/Sunshine-setup)
     - Add command to switch resolution:
     ```
     sh -c "displayconfig-mutter set --connector <output name> --resolution ${SUNSHINE_CLIENT_WIDTH}x${SUNSHINE_CLIENT_HEIGHT} --refresh-rate ${SUNSHINE_CLIENT_FPS}"
