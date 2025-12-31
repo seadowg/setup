@@ -1,5 +1,8 @@
 set -e
 
+# Update repos
+sudo apt update && sudo apt upgrade
+
 # Install Curl
 sudo apt install curl
 
