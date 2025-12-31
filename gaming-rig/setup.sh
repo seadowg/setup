@@ -35,3 +35,6 @@ rm MoonDeckBuddy-1.9.1-x86_64.AppImage
 curl -O https://github.com/FrogTheFrog/moondeck-buddy/releases/download/v1.9.1/MoonDeckBuddy-1.9.1-x86_64.AppImage
 chmod +x MoonDeckBuddy-1.9.1-x86_64.AppImage
 cp MoonDeckBuddy-settings.json ~/.config/moondeckbuddy/settings.json
+
+# Set power profile
+sudo powerprofilesctl set performance
