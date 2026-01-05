@@ -8,13 +8,13 @@ cask "mountain-duck"
 brew "checkin"
 brew "mas"
 brew "languagetool"
-brew "pandoc"
 mas "Hand Mirror", id: 1502839586
 brew "rclone"
-cask "todoist"
+cask "todoist-app"
 cask "firefox"
 cask "netnewswire"
 mas "Balance Lock", id: 1019371109
+cask "localsend"
 
 # Work
 mas "Toggl Track: Hours & Time Log", id: 1291898086
@@ -25,8 +25,7 @@ brew "git"
 brew "gti"
 brew "direnv"
 cask "nova"
-cask "iterm2"
-cask "docker"
+cask "docker-desktop"
 cask "gpg-suite"
 brew "wget"
 mas "Prompt", id: 1594420480
