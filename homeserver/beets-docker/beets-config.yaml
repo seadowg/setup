@@ -1,5 +1,5 @@
-directory: /home/beets/music
-library: /home/beets/music/beet-library.db
+directory: /home/beets/Mounts/Music
+library: /home/beets/Mounts/Music/beet-library.db
 plugins: convert extrafiles info
 asciify_paths: yes
 format_item: $artist - $album - $title ($format $bitrate $samplerate $bitdepth)
