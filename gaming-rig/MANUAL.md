@@ -2,14 +2,14 @@
 
 For just streaming:
 
-- Full screen
+- Borderless
 - 1440p
 - VSync enabled
 - Disabled frame limit
 
 For desktop and streaming:
 
-- Full screen
+- Borderless
 - 4K
 - VSync enabled
 - Disabled frame limit
