@@ -1,16 +1,15 @@
 # Game settings
 
-For just streaming:
-
-- Borderless
-- 1440p
-- VSync enabled
-- Disabled frame limit
-
 For desktop and streaming:
 
 - Borderless
-- 4K
+- VSync enabled
+- Disabled frame limit
+
+For just desktop:
+
+- Fullscreen
+- 4k
 - VSync enabled
 - Disabled frame limit
 
