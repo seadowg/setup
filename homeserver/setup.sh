@@ -33,3 +33,7 @@ cp start.sh ~
 cp backup-music.sh ~
 cp restart-roon.sh ~
 cp backup-plex.sh ~
+
+# Copy configs
+mkdir -p ~/.config/navidrome
+cp navidrome.toml ~/.config/navidrome
