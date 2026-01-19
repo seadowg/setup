@@ -37,3 +37,7 @@ cp backup-plex.sh ~
 # Copy configs
 mkdir -p ~/.config/navidrome
 cp navidrome.toml ~/.config/navidrome
+
+# Setup services
+cp navidrome.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/navidrome.plist
