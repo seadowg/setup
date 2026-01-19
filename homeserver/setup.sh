@@ -40,4 +40,5 @@ cp navidrome.toml ~/.config/navidrome
 
 # Setup services
 cp navidrome.plist ~/Library/LaunchAgents/
+launchctl unload ~/Library/LaunchAgents/navidrome.plist
 launchctl load ~/Library/LaunchAgents/navidrome.plist
