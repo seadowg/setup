@@ -2,6 +2,7 @@
 	```bash
 	ln -s <videos on storage> ~/Mounts/Videos
 	```
+1. Add `~/Mounts/Videos` as folder to Videos library in Plex
 1. Download music with `./download-music.sh`
 2. Run `./start.sh`
 4. Update icecast config (`/opt/homebrew/etc/icecast.xml`) `admin-password` (in 1Password)
