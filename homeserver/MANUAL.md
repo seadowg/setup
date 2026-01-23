@@ -1,3 +1,7 @@
+1. Connect storage and symlink videos for Plex:
+	```bash
+	ln -s <videos on storage> ~/Mounts/Videos
+	```
 1. Download music with `./download-music.sh`
 2. Run `./start.sh`
 4. Update icecast config (`/opt/homebrew/etc/icecast.xml`) `admin-password` (in 1Password)
