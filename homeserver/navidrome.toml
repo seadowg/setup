@@ -1,5 +1,5 @@
 MusicFolder = '/Users/nexus/Mounts/Music'
 DataFolder = '/Users/nexus/.config/navidrome'
 
-Tags.AlbumVersion.Aliases = ["albumdisambig", "txxx:albumdisambig"]
+Tags.AlbumVersion.Aliases = ["musicbrainz_albumcomment", "musicbrainz album comment"] # Both set by albumdisambig in beets
 Tags.Comment.Ignore = true
