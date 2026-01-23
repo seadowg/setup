@@ -1,5 +1,5 @@
 MusicFolder = '/Users/nexus/Mounts/Music'
 DataFolder = '/Users/nexus/.config/navidrome'
 
-Tags.AlbumVersion.Aliases = ["version"]
+Tags.AlbumVersion.Aliases = ["albumdisambig"]
 Tags.Comment.Ignore = true
