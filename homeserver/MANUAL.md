@@ -15,7 +15,7 @@
 	0 3 * * * /Users/nexus/restart-roon.sh
 	```
 9. Add Music Assistant to Home Assistant: https://www.music-assistant.io/installation/ and configure:
- - Add Navidrome (OpenSubSonic) and Tidal providers
+ - Add Navidrome (OpenSubSonic), Tidal, Sonos, Chromecast and Subsonic Scrobbler providers
  - Add Sonos and Chromecast providers
  - Navidrome needs "Force Player Seek" enabled
- - Music Assistant can be installed as web app on macOS from http://homeassistant.local:8095/#/home (using Safari's "Add to dock")
+ - Music Assistant can be installed as web app from http://homeassistant.local:8095/#/home
