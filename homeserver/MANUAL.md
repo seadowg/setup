@@ -14,3 +14,6 @@
 	crontab -e
 	0 3 * * * /Users/nexus/restart-roon.sh
 	```
+9. Add Music Assistant to Home Assistant: https://www.music-assistant.io/installation/ and configure:
+ - Add Navidrome and Tidal providers
+ - Add Sonos and Chromecast providers
