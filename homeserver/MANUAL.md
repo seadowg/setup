@@ -18,3 +18,4 @@
  - Add Navidrome (OpenSubSonic) and Tidal providers
  - Add Sonos and Chromecast providers
  - Navidrome needs "Force Player Seek" enabled
+ - Music Assistant can be installed as web app on macOS from http://homeassistant.local:8095/#/home (using Safari's "Add to dock")
