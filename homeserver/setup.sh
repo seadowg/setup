@@ -33,6 +33,8 @@ cp restart-roon.sh ~
 # Copy configs
 mkdir -p ~/.config/navidrome
 cp navidrome.toml ~/.config/navidrome
+mkdir -p ~/.config/sendspin
+cp sendspin-settings-daemon.json ~/.config/sendspin/settings-daemon.json
 
 # Setup services
 cp navidrome.plist ~/Library/LaunchAgents/
