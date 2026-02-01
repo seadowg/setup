@@ -42,5 +42,6 @@ launchctl unload ~/Library/LaunchAgents/navidrome.plist
 launchctl load ~/Library/LaunchAgents/navidrome.plist
 
 cp sendspin.plist ~/Library/LaunchAgents/
+launchctl stop sendspin
 launchctl unload ~/Library/LaunchAgents/sendspin.plist
 launchctl load ~/Library/LaunchAgents/sendspin.plist
