@@ -29,7 +29,6 @@ cp checkin ~/.checkin
 cp start.sh ~
 cp backup-music.sh ~
 cp restart-roon.sh ~
-cp sendspin.sh ~
 
 # Copy configs
 mkdir -p ~/.config/navidrome
