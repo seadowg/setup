@@ -1,6 +1,6 @@
 directory: /home/beets/music
 library: /home/beets/music/beet-library.db
-plugins: convert extrafiles info musicbrainz
+plugins: convert info musicbrainz
 asciify_paths: yes
 format_item: $artist - $album - $title ($format $bitrate $samplerate $bitdepth)
 convert:
@@ -13,9 +13,4 @@ convert:
     cd_with_dither:
       command: ffmpeg -i $source -y -vn -sample_fmt s16 -ar 44100 -dither_method triangular $dest
       extension: flac
-extrafiles:
-    patterns:
-        jpg: '*.jpg'
-        pdf: '*.pdf'
-        png: '*.png'
 
