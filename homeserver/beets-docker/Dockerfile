@@ -6,6 +6,7 @@ RUN adduser beets
 USER beets
 RUN pip install --user beets
 RUN pip install --user typing_extensions
+RUN pip install --user beets-copyartifacts3
 COPY beets-config.yaml /home/beets/.config/beets/config.yaml
 
 ENV PATH="$PATH:~/.local/bin/"

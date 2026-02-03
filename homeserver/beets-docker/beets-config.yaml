@@ -1,6 +1,6 @@
 directory: /home/beets/music
 library: /home/beets/music/beet-library.db
-plugins: convert info musicbrainz
+plugins: convert info musicbrainz copyartifacts
 asciify_paths: yes
 format_item: $artist - $album - $title ($format $bitrate $samplerate $bitdepth)
 convert:
