@@ -27,12 +27,10 @@ brew "direnv"
 cask "nova"
 cask "docker-desktop"
 cask "gpg-suite"
-brew "wget"
 mas "Prompt", id: 1594420480
 
 # Music
 cask "musicbrainz-picard"
-cask "roon"
 
 # Production
 cask "ableton-live-standard"
