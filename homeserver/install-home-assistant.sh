@@ -8,7 +8,7 @@ VBoxManage modifyhd --resize 32768 haos_generic-aarch64-16.3.vdi
 
 # Create VM based on https://www.home-assistant.io/installation/macos/
 VBoxManage createvm --name "HomeAssistant" --ostype "Oracle_arm64" --register
-VBoxManage modifyvm "HomeAssistant" --memory 3072 --cpus 2
+VBoxManage modifyvm "HomeAssistant" --memory 4096 --cpus 2
 VBoxManage modifyvm "HomeAssistant" --graphicscontroller QemuRamFB --vram 16
 VBoxManage modifyvm "HomeAssistant" --firmware efi
 VBoxManage modifyvm "HomeAssistant" --nic1 bridged --bridgeadapter1 "en1: Wi-Fi"
