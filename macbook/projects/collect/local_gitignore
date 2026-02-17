@@ -7,3 +7,4 @@ enable-animations.sh
 nightly.sh
 kill-emulator.sh
 decode-qr.sh
+.junie
