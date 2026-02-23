@@ -8,6 +8,7 @@ setup() {
   cp envrc ~/workspace/collect/.envrc
   cp kill-emulator.sh ~/workspace/collect
   cp decode-qr.sh ~/workspace/collect
+  cp run-connected-test.sh ~/workspace/collect
 
   mkdir -p ~/workspace/collect/.idea
   cp structuralSearch.xml ~/workspace/collect/.idea/structuralSearch.xml

@@ -8,3 +8,4 @@ nightly.sh
 kill-emulator.sh
 decode-qr.sh
 .junie
+run-connected-test.sh
