@@ -1,4 +1,5 @@
 #! /bin/bash
+set -e
 
 # Setup bash
 if [ $(echo "$SHELL") != "/bin/bash" ]
