@@ -4,7 +4,7 @@ tap "seadowg/checkin"
 cask "1password"
 cask "obsidian"
 cask "mountain-duck"
-brew "checkin"
+brew "seadowg/checkin/checkin"
 brew "mas"
 brew "languagetool"
 mas "Hand Mirror", id: 1502839586
