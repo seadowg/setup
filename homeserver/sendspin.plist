@@ -9,8 +9,6 @@
 			<string>/opt/homebrew/bin/uvx</string>
 			<string>sendspin</string>
 			<string>daemon</string>
-			<string>--url</string>
-			<string>ws://homeassistant.local:8095</string>
 			<string>--audio-format</string>
 			<string>flac:96000:24:2</string>
 		</array>
