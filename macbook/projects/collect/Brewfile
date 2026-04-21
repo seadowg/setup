@@ -4,6 +4,7 @@ brew "gh"
 brew "gradle-completion"
 brew "base64"
 brew "qpdf"
+brew "zbar"
 
 cask "slack"
 cask "android-studio"
