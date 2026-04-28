@@ -3,6 +3,7 @@ DataFolder = '/Users/nexus/.config/navidrome'
 
 Tags.AlbumVersion.Aliases = ["musicbrainz_albumcomment", "musicbrainz album comment"] # Both set by albumdisambig in beets
 Tags.Comment.Ignore = true
+Subsonic.AppendAlbumVersion = false
 
 [Backup]
 Path = "/Users/nexus/.config/navidrome/backups"
