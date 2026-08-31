@@ -27,6 +27,7 @@ cask "nova"
 cask "docker-desktop"
 cask "gpg-suite"
 mas "Prompt", id: 1594420480
+cask "intellij-idea"
 
 # Music
 cask "musicbrainz-picard"

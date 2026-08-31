@@ -10,4 +10,3 @@ cask "slack"
 cask "android-studio"
 cask "google-cloud-sdk"
 cask "imageoptim" # for optimizing screenshots
-cask "intellij-idea-ce"

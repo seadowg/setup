@@ -3,9 +3,9 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
 $(/opt/homebrew/bin/brew shellenv)
-
 [[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
-
 export PATH="/usr/local/sbin:$PATH"
 
 eval "$(direnv hook bash)"
+
+export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS:$PATH"
