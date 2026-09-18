@@ -1,3 +1,4 @@
 #! /bin/bash
 
 docker run -it -v $HOME/Mounts/Music:/home/beets/music -v $HOME/Downloads:/home/beets/downloads seadowg/beets
+docker container prune
