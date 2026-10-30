@@ -34,3 +34,6 @@ cp kill-gradle.sh /usr/local/bin/kill-gradle
 
 # Copy services
 cp -r services/* ~/Library/Services
+
+# Copy config
+cp config.ghostty ~/Library/Application\ Support/com.mitchellh.ghostty/config.ghostty

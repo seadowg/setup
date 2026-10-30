@@ -23,11 +23,10 @@ brew "bash-completion"
 brew "git"
 brew "gti"
 brew "direnv"
-cask "nova"
 cask "docker-desktop"
 cask "gpg-suite"
-mas "Prompt", id: 1594420480
 cask "intellij-idea"
+cask "ghostty"
 
 # Music
 cask "musicbrainz-picard"
