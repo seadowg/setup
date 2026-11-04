@@ -37,3 +37,7 @@ cp -r services/* ~/Library/Services
 
 # Copy config
 cp config.ghostty ~/Library/Application\ Support/com.mitchellh.ghostty/config.ghostty
+
+mkdir -p ~/.pi
+cp prompts/* ~/.pi/agent/prompts/
+cp SYSTEM_PROMPT.md ~/.pi/agent/APPEND_SYSTEM.md
