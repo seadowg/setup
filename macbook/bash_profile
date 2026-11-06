@@ -9,3 +9,7 @@ export PATH="/usr/local/sbin:$PATH"
 eval "$(direnv hook bash)"
 
 export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS:$PATH"
+
+if [ -f ~/.bash_profile.local ]; then
+    source ~/.bash_profile.local
+fi
