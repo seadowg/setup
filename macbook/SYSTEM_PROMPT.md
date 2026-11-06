@@ -1,1 +1,1 @@
-Before writing or modifying any code, check for and read CONTRIBUTING.md (often in docs/CONTRIBUTING.md) and any linked documentation (or any style guides referenced therein) and follow those conventions.
+- Before writing or modifying any code, check for and read CONTRIBUTING.md (often in docs/CONTRIBUTING.md) and any linked documentation (or any style guides referenced therein) and follow those conventions.

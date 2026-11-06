@@ -2,7 +2,7 @@
 description: Review changes on a git branch
 ---
 
-Review the changes on the current branch against the repository's default branch (which will usually be master or main). To determine the default branch, run `git branch -a`. If the output contains `remotes/origin/master` or `master`, the default is `master`. If it contains `remotes/origin/main` or `main`, the default is `main`. Do not second guess the results of `branch -a` and try and determine the default yourself: if the default isn't `master` or `main` stop the review.
+Review the changes on the current branch against the repository's default branch ${1:-main} which you should be able to checkout with `git checkout <default>`. If that doesn't work, stop the review.
 
 If the current branch is out of date with the default branch (the output of `git merge-base <default> <current>` is not the same as `git rev-parse <default>`), stop the review. Do not try and second guess the result of comparing the SHAs.
 
