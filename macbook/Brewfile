@@ -2,6 +2,7 @@ tap "seadowg/checkin"
 
 # General
 cask "1password"
+cask "bitwarden"
 cask "obsidian"
 cask "mountain-duck"
 brew "seadowg/checkin/checkin"

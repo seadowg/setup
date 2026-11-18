@@ -10,6 +10,8 @@ eval "$(direnv hook bash)"
 
 export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS:$PATH"
 
+export SSH_AUTH_SOCK=~/.bitwarden-ssh-agent.sock
+
 if [ -f ~/.bash_profile.local ]; then
     source ~/.bash_profile.local
 fi
