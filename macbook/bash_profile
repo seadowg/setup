@@ -12,6 +12,8 @@ export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS:$PATH"
 
 export SSH_AUTH_SOCK=~/.bitwarden-ssh-agent.sock
 
+export JAVA_HOME=`/usr/libexec/java_home -v 27`
+
 if [ -f ~/.bash_profile.local ]; then
     source ~/.bash_profile.local
 fi
