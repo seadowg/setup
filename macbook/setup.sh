@@ -43,4 +43,4 @@ cp prompts/* ~/.pi/agent/prompts/
 cp SYSTEM_PROMPT.md ~/.pi/agent/APPEND_SYSTEM.md
 
 # Add OpenJDK to Java versions
-sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+sudo ln -sfn /opt/homebrew/opt/openjdk@25/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-25.jdk
