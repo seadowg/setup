@@ -2,9 +2,9 @@
 description: Review changes on a git branch
 ---
 
-Review the changes on the current branch against the repository's default branch ${1:-main} which you should be able to checkout with `git checkout <default>`. If that doesn't work, stop the review.
+Review the changes on the current branch against a base branch ${1:-main} which you should be able to checkout with `git checkout <default>`. If that doesn't work, stop the review.
 
-If the current branch is out of date with the default branch (the output of `git merge-base <default> <current>` is not the same as `git rev-parse <default>`), stop the review. Do not try and second guess the result of comparing the SHAs.
+If the current branch is out of date with the base branch (the output of `git merge-base <default> <current>` is not the same as `git rev-parse <default>`), stop the review. Do not try and second guess the result of comparing the SHAs.
 
 ## Determining what to flag
 
